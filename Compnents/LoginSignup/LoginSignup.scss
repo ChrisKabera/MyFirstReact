@@ -1,0 +1,110 @@
+
+.login-signup-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.image-container {
+  flex: 1;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;  
+  height: 100%; 
+  object-fit: cover;  
+}
+
+.form-container {
+  flex: 1;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center; 
+  padding: 30px 20px;
+  background-color: #f8f9fa;
+}
+
+.title,
+.subtitle {
+  align-self: center; 
+}
+
+.title {
+  font-size: 2.5rem; 
+  font-weight: bold;
+  margin-bottom: 5px; 
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 15px; 
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 70%; 
+  max-width: 400px; 
+}
+
+.inputs label {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2px; 
+}
+
+.inputs input,
+.inputs button {
+  width: 100%; 
+  padding: 8px 12px; 
+  font-size: 1rem; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.inputs input:focus {
+  border-color: #01060c; 
+}
+
+.inputs button {
+  font-weight: bold;
+  background-color: #01060c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inputs button:hover {
+  background-color: #333; 
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-wrapper .icon {
+  position: absolute;
+  left: 10px;
+  color: #888;
+}
+
+.input-wrapper input {
+  padding-left: 30px; 
+}
+
+.toggle-password-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  color: #888;
+}
